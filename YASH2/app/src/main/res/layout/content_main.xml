@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="5sp"
+    android:layout_marginTop="0sp"
+    android:orientation="vertical"
+    android:padding="0dp"
+    android:weightSum="100">
+
+   <!-- <com.jmedeisis.windowview.WindowView
+        android:id="@+id/windowView1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/event"
+        app:horizontal_origin="0"
+        app:max_constant_translation="100dp"
+        app:max_pitch="15"
+        app:max_roll="15"
+        app:orientation_mode="Relative"
+        app:sensor_sampling_period="fast"
+        app:translate_mode="Constant"
+        app:vertical_origin="0" />-->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="40"
+        android:src="@drawable/event"
+        android:padding="0dp"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_repeat"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/about_b"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:layout_margin="0dp"/>
+
+        <ImageButton
+            android:id="@+id/button_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/gallery_button"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_bottomleft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="0sp"
+            android:src="@drawable/event_button"
+            android:scaleType="fitXY"
+            android:layout_weight="1"
+            android:padding="0dp"/>
+
+        <ImageButton
+            android:id="@+id/button_bottomright"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/schedule_b"
+            android:scaleType="fitXY"
+            android:padding="0dp"
+            android:onClick="goToSchedule" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button_bottomleft1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            android:src="@drawable/teams_b"
+            android:scaleType="fitXY"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:id="@+id/button_bottomright1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/sponser_b"
+            android:scaleType="fitXY"
+            android:padding="0dp"/>
+    </LinearLayout>
+</LinearLayout>

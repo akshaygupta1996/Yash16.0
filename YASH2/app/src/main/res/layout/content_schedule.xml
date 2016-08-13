@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.akshay.yash.Schedule"
+    tools:showIn="@layout/activity_schedule">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5sp"
+        android:layout_marginLeft="2sp"
+        android:layout_marginRight="5sp"
+        android:layout_marginTop="0sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+
+                android:id="@+id/button_day1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="2sp"
+                android:layout_marginTop="0sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="goToDay1"
+                android:padding="2dp"
+                android:scaleType="fitXY"/>
+
+            <ImageButton
+                android:id="@+id/button_day2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="0sp"
+                android:onClick="goToDay2"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_day3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="2sp"
+                android:layout_weight="1"
+                android:paddingLeft="2sp"
+                android:onClick="goToDay3"
+                />
+
+            <ImageButton
+                android:id="@+id/button_day4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:onClick="goToDay4"
+
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_day5"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="2sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="0sp"
+                android:layout_weight="1"
+                android:onClick="goToDay5"
+                />
+
+            <ImageButton
+                android:id="@+id/button_day6"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="2sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="0sp"
+                android:layout_weight="1"
+                android:onClick="goToDay6"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_day7"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="5sp"
+                android:layout_marginLeft="2sp"
+                android:layout_marginRight="5sp"
+                android:layout_marginTop="0sp"
+                android:layout_weight="1"
+                android:onClick="goToDay7"
+                />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">YASH2k16</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_base">BaseActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_schedule">Schedule</string>
+    <string name="title_activity_sponsers">Sponsers</string>
+    <string name="string_home">Home</string>
+    <string name="string_map">Map</string>
+    <string name="string_events">Events</string>
+    <string name="string_sponsers">Sponsers</string>
+    <string name="string_gallery">Gallery</string>
+    <string name="string_freshers_day">Freshers Day</string>
+    <string name="string_teams">Teams</string>
+    <string name="string_developed_by">Developer</string>
+    <string name="title_activity_map">Map</string>
+    <string name="string_schedule">Schedule</string>
+    <string name="string_fashionista">Fashionista</string>
+    <string name="title_activity_activity_day1">Activity_day1</string>
+    <string name="title_activity_activity__day2">Activity_Day2</string>
+    <string name="title_activity_activity__day3">Activity_Day3</string>
+    <string name="title_activity_activity__day4">Activity_Day4</string>
+    <string name="title_activity_activity__day5">Activity_Day5</string>
+    <string name="title_activity_activity__day6">Activity_Day6</string>
+    <string name="title_activity_activity__day7">Activity_Day7</string>
+    <string name="title_activity_teams">Teams</string>
+    <string name="title_activity_events">Events</string>
+    <string name="title_activity_developed_by">DevelopedBy</string>
+    <string name="title_activity_cultural__events">Cultural_Events</string>
+    <string name="title_activity_mega_events">MegaEvents</string>
+    <string name="title_activity_cultural_events">CulturalEvents</string>
+    <string name="title_activity_sports_events">SportsEvents</string>
+    <string name="title_activity_technical_events">TechnicalEvents</string>
+</resources>

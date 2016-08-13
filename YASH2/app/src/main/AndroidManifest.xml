@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akshay.yash2k16">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BaseActivity"
+            android:label="@string/title_activity_base"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Schedule"
+            android:label="@string/title_activity_schedule"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Sponsers"
+            android:label="@string/title_activity_sponsers"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Map"
+            android:label="@string/title_activity_map"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_day1"
+            android:label="@string/title_activity_activity_day1"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Day2"
+            android:label="@string/title_activity_activity__day2"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Day3"
+            android:label="@string/title_activity_activity__day3"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Day4"
+            android:label="@string/title_activity_activity__day4"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Day5"
+            android:label="@string/title_activity_activity__day5"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Day6"
+            android:label="@string/title_activity_activity__day6"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Activity_Day7"
+            android:label="@string/title_activity_activity__day7"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Teams"
+            android:label="@string/title_activity_teams"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Events"
+            android:label="@string/title_activity_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DevelopedBy"
+            android:label="@string/title_activity_developed_by"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MegaEvents"
+            android:label="@string/title_activity_mega_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CulturalEvents"
+            android:label="@string/title_activity_cultural_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SportsEvents"
+            android:label="@string/title_activity_sports_events"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".TechnicalEvents"
+            android:label="@string/title_activity_technical_events"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>
